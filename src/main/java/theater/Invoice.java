@@ -15,11 +15,11 @@ public class Invoice {
         this.performances = performances;
     }
 
-    public final String getCustomer() {
+    public String getCustomer() {
         return customer;
     }
 
-    public final List<Performance> getPerformances() {
+    public List<Performance> getPerformances() {
         return performances;
     }
 }
